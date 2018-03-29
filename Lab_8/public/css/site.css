@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 14pt;
+  font-family: "Helvetica", Helvetica, sans-serif;
+}
+.error{
+  color: red;
+  border: 5px solid red;
+}
+/*3*/
+.success{
+  color:#28a745;
+  border: 5px solid #28a745;
+/*3*/
+}
+.failure{
+  color: #dc3545;
+  border: 5px solid #dc3545;
+  padding
+}
+#grad1 {
+  background: linear-gradient(-90deg, red, yellow);
+}
+/* 4 global*/
+footer{
+  padding: 10px;
+  color: black;
+  width: 100%;
+  position: fixed;
+  border: 1px solid powderblue;
+}
+
+input[type=text]{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  box-shadow:  0 0 2px 1px #888;
+  background: #fff;
+
+}
+
+.static-ol{
+  border: 1px solid powderblue;
+  padding-left: 30px;
+  list-style-type: upper-roman
+}
+
+.p-static{
+    border: 1px solid powderblue;
+    padding: 30px;
+}
+/*2*/
+h1{
+  font-size: 30px;
+}
+/*
+The links count as 1 style, for each page.
+*/
+a:link{
+
+  color: black
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color:blue;
+}
+
+a:active{
+  color:orange;
+}
