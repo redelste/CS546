@@ -1,0 +1,47 @@
+/*1*/
+.foot{
+  background-color: blue;
+}
+
+/*2*/
+
+.succ{
+  color: #0000FF;
+}
+/*3*/
+
+.fail{
+  color:#FF0000;
+}
+/*4*/
+
+h1{
+  color: #2f5087
+}
+/*5*/
+
+p{
+  color: #724b23
+}
+/*6*/
+
+form{
+  background-color: #c62184
+}
+/*7*/
+
+header{
+  background-color: #adc448
+}
+/*8*/
+li{
+  background-color: #44165b
+}
+/*9*/
+h2{
+  color: #4c2b36
+}
+/*10*/
+html{
+  background-color: #a1c5d1;
+}
