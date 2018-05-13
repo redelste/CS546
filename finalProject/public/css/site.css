@@ -1,0 +1,90 @@
+/*body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}*/
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+#statusbar{
+  padding-top: 20px;
+}
+/*
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}*/
+.background-blur{
+  -webkit-filter: blur(35px);
+  -moz-filter: blur(35px);
+  -o-filter: blur(35px);
+  -ms-filter:blur(35px);
+  filter:blur(35px);
+}
+
+@font-face {
+  font-family: first;
+  src: url(Unability.otf) format("opentype");
+}
+
+.fontApplication{
+  font-family: first;
+}
+
+/*Title Color on Main page*/
+.colorPlease{
+  color: white;
+}
+/*Color of Login Dropdown menu*/
+.colorBlack{
+  color:black;
+}
+
+button{
+  text-decoration: none;
+}
+.btn-hover{
+  text-decoration: none;
+}
+
+/*Main title size*/
+h1.mainTitle{
+  font-size: 50px;
+}
+
+
+h1.paddingPlease{
+  padding-top: 20px;
+}
+
+input.pad{
+  padding-top: 10px;
+  width: 50%;
+}
+
+
+img.tallness{
+  display:block;
+  height: 180px;
+}
+.buttonWidth{
+  width:65%;
+}
+
+
+.colorRed{
+  color:red;
+}
